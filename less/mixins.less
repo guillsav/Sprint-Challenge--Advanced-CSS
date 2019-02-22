@@ -6,11 +6,19 @@
   border-radius: 3px;
   font-size: 1.4rem;
   .center();
+  transition: background 0.2s;
 
-  @media (min-width: 500px) {
+  // Desktop
+  @media @desktop {
     width: 25%;
     height: 34px;
     font-size: 1.6rem;
+
+    &:hover {
+      background: rgba(34, 40, 58, 0.2);
+      // border: 1px double @btn-bg-color;
+      color: @btn-bg-color;
+    }
   }
 }
 

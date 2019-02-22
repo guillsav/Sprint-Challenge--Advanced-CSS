@@ -135,7 +135,7 @@ html {
 html,
 body {
   font-family: 'Ubuntu', sans-serif;
-  color: #5E6164;
+  color: #5e6164;
 }
 h1,
 h2,
@@ -143,12 +143,12 @@ h3,
 h4,
 h5 {
   font-family: 'Russo One', sans-serif;
-  color: #23293B;
+  color: #23293b;
 }
 h2 {
   font-size: 3.2rem;
 }
-@media (max-width: 500px) {
+@media (max-width: 630px) {
   h2 {
     font-size: 2.6rem;
   }
@@ -156,7 +156,7 @@ h2 {
 h3 {
   font-size: 2.8rem;
 }
-@media (max-width: 500px) {
+@media (max-width: 630px) {
   h3 {
     font-size: 2.2rem;
   }
@@ -165,7 +165,7 @@ p {
   font-size: 1.6rem;
   line-height: 1.4;
 }
-@media (max-width: 500px) {
+@media (max-width: 630px) {
   p {
     font-size: 1.4rem;
   }
@@ -178,8 +178,8 @@ p {
 .main-header {
   padding-top: 20px;
   padding-bottom: 10px;
-  background: #F6F6F6;
-  border-bottom: 1px double #F1F1F1;
+  background: #f6f6f6;
+  border-bottom: 1px double #f1f1f1;
 }
 @media (max-width: 500px) {
   .main-header {
@@ -223,7 +223,7 @@ p {
 }
 .main-header .navigation nav a {
   text-decoration: none;
-  color: #5E6164;
+  color: #5e6164;
 }
 footer {
   color: #22283B;
@@ -325,7 +325,7 @@ footer {
   margin-bottom: 26px;
 }
 .home .walk .walk-text .btn {
-  background: #22283A;
+  background: #22283a;
   color: white;
   height: 50px;
   border-radius: 3px;
@@ -334,12 +334,17 @@ footer {
   justify-content: center;
   align-items: center;
   margin: 10px 0;
+  transition: background 0.2s;
 }
-@media (min-width: 500px) {
+@media (min-width: 630px) {
   .home .walk .walk-text .btn {
     width: 25%;
     height: 34px;
     font-size: 1.6rem;
+  }
+  .home .walk .walk-text .btn:hover {
+    background: rgba(34, 40, 58, 0.2);
+    color: #22283a;
   }
 }
 .home .walk .walk-img {
