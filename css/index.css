@@ -221,6 +221,11 @@ p {
     color: #22283a;
   }
 }
+@media (max-width: 740px) {
+  .main-header .navigation nav {
+    padding: 0 18%;
+  }
+}
 @media (max-width: 600px) {
   .main-header .navigation nav {
     padding: 0 10%;
