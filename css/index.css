@@ -221,7 +221,7 @@ p {
     color: #22283a;
   }
 }
-@media (max-width: 740px) {
+@media (max-width: 750px) {
   .main-header .navigation nav {
     padding: 0 18%;
   }
@@ -324,7 +324,7 @@ footer {
   display: flex;
   justify-content: center;
 }
-@media (max-width: 740px) {
+@media (max-width: 750px) {
   .home .walk {
     margin-top: 30px;
     padding: 0 1.5%;
@@ -343,7 +343,7 @@ footer {
 .home .walk .walk-text {
   width: 50%;
 }
-@media (max-width: 740px) {
+@media (max-width: 750px) {
   .home .walk .walk-text {
     width: 48.5%;
   }
