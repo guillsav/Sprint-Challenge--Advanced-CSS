@@ -11,7 +11,7 @@
     h2 {
       padding: 15px;
 
-      @media (max-width: 500px) {
+      @media @phone {
         padding: 15px 5%;
       }
     }
@@ -19,7 +19,7 @@
     p {
       padding: 0 15px;
 
-      @media (max-width: 500px) {
+      @media @phone {
         padding: 0 5%;
       }
     }
@@ -30,7 +30,7 @@
     flex-wrap: wrap;
     width: 100%;
 
-    @media (max-width: 500px) {
+    @media @phone {
       flex-wrap: nowrap;
       flex-direction: column;
       padding: 0 5%;
@@ -50,7 +50,7 @@
       border-radius: 20px;
       height: 100%;
 
-      @media (max-width: 500px) {
+      @media @phone {
         width: 100%;
         margin: 20px 0;
       }
@@ -76,7 +76,14 @@
     display: flex;
     justify-content: center;
 
-    @media (max-width: 500px) {
+    @media @tablet {
+      margin-top: 30px;
+      padding: 0 5%;
+      padding-top: 40px;
+      padding-bottom: 85px;
+    }
+
+    @media @phone {
       margin-top: 10px;
       flex-direction: column-reverse;
       padding: 10px 5%;
@@ -86,7 +93,7 @@
     .walk-text {
       width: 50%;
 
-      @media (max-width: 500px) {
+      @media @phone {
         width: 100%;
       }
 
@@ -107,7 +114,7 @@
       width: 46%;
       margin-left: 4%;
 
-      @media (max-width: 500px) {
+      @media @phone {
         width: 100%;
         margin-left: 0;
         margin-top: 5px;
