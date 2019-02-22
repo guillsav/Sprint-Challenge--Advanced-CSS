@@ -1,1 +1,51 @@
 // Navigation code here
+.main-header {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  background: @nav-bg;
+  border-bottom: 1px double @nav-border;
+
+  @media (max-width: 500px) {
+    padding-top: 0;
+    padding-bottom: 10px;
+  }
+
+  .navigation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+
+    @media (max-width: 500px) {
+      font-size: 1.3rem;
+    }
+
+    h1 {
+      font-size: 3.4rem;
+      margin: 15px 0;
+
+      @media (max-width: 500px) {
+        font-size: 3rem;
+        margin: 10px 0;
+      }
+    }
+
+    nav {
+      display: flex;
+      width: 100%;
+      padding: 0 20%;
+      justify-content: space-around;
+
+      @media (max-width: 500px) {
+        padding: 0 10%;
+        margin-top: 8px;
+      }
+
+      a {
+        text-decoration: none;
+        color: @main-font-color;
+      }
+    }
+  }
+}
