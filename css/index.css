@@ -327,7 +327,7 @@ footer {
 @media (max-width: 740px) {
   .home .walk {
     margin-top: 30px;
-    padding: 0 5%;
+    padding: 0 1.5%;
     padding-top: 40px;
     padding-bottom: 85px;
   }
@@ -342,6 +342,11 @@ footer {
 }
 .home .walk .walk-text {
   width: 50%;
+}
+@media (max-width: 740px) {
+  .home .walk .walk-text {
+    width: 48.5%;
+  }
 }
 @media (max-width: 600px) {
   .home .walk .walk-text {
