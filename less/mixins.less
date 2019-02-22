@@ -1,1 +1,22 @@
 // Mixins Here
+.btn() {
+  background: @btn-bg-color;
+  color: white;
+  height: 50px;
+  border-radius: 3px;
+  font-size: 1.4rem;
+  .center();
+
+  @media (min-width: 500px) {
+    width: 25%;
+    height: 34px;
+    font-size: 1.6rem;
+  }
+}
+
+.center() {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+}
