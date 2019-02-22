@@ -215,6 +215,12 @@ p {
   padding: 0 22%;
   justify-content: space-around;
 }
+@media (min-width: 750px) {
+  .main-header .navigation nav .current {
+    background: rgba(34, 40, 58, 0.2);
+    color: #22283a;
+  }
+}
 @media (max-width: 600px) {
   .main-header .navigation nav {
     padding: 0 10%;
@@ -224,6 +230,17 @@ p {
 .main-header .navigation nav a {
   text-decoration: none;
   color: #5e6164;
+}
+@media (min-width: 750px) {
+  .main-header .navigation nav a {
+    padding: 10px;
+    border-radius: 3px;
+    transition: background 0.3s;
+  }
+  .main-header .navigation nav a:hover {
+    background: #22283a;
+    color: white;
+  }
 }
 footer {
   color: #22283B;

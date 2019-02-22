@@ -37,6 +37,13 @@
       padding: 0 22%;
       justify-content: space-around;
 
+      @media @desktop {
+        .current {
+          background: rgba(34, 40, 58, 0.2);
+          color: @btn-bg-color;
+        }
+      }
+
       @media @phone {
         padding: 0 10%;
         margin-top: 8px;
@@ -45,6 +52,16 @@
       a {
         text-decoration: none;
         color: @main-font-color;
+
+        @media @desktop {
+          padding: 10px;
+          border-radius: 3px;
+          transition: background 0.3s;
+
+          &:hover {
+            .hover(@btn-bg-color, white);
+          }
+        }
       }
     }
   }
