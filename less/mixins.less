@@ -1,1 +1,33 @@
 // Mixins Here
+.btn(@background, @color) {
+  background: @background;
+  color: @color;
+  height: 50px;
+  border-radius: 3px;
+  font-size: 1.4rem;
+  .center();
+  transition: background 0.2s;
+
+  // Desktop
+  @media @desktop {
+    width: 25%;
+    height: 34px;
+    font-size: 1.6rem;
+
+    &:hover {
+      .hover();
+    }
+  }
+}
+
+.center() {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.hover(@background:rgba(34, 40, 58, 0.2), @color: @btn-bg-color) {
+  background: @background;
+  color: @color;
+}
